@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://woosal.com/1337/omeniscient.png" width=200px />
+  <img src="https://woosal.com/1337/omeniscient1337.png" width=200px />
 </div>
 
 # omeniscient
