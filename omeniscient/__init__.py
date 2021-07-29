@@ -6,6 +6,7 @@ from spotius.spotus import spotus
 from speedtest_demo import speedtesting
 from tr import translateit
 from wiki import wikipy
+from typo import typos
 
 import rich
 from rich import pretty
@@ -17,6 +18,7 @@ spotius = spotus()
 speedtest = speedtesting()
 translated = translateit()
 wiki = wikipy()
+typoz = typos()
 
 
 class omeniscient():
@@ -31,60 +33,67 @@ class omeniscient():
             try:
 
                 user_input = input("1337$ ")
+                user_command = user_input.split()[0].lower()
 
-                if user_input.split()[0].lower() == "lyrics":
+
+                if user_command == "lyrics":
 
                     spotius.lyrics(user_input.split()[1], user_input.split()[2])
 
-                elif user_input.split()[0].lower() == "lyricsnow":
+                elif user_command == "lyricsnow":
 
                     spotius.currently_playing_lyrics()
 
-                elif user_input.split()[0].lower() == "downloadspeed":
+                elif user_command == "downloadspeed":
 
                     speedtest.get_download_speed()
 
-                elif user_input.split()[0].lower() == "uploadspeed":
+                elif user_command == "uploadspeed":
 
                     speedtest.get_upload_speed()
 
-                elif user_input.split()[0].lower() == "internet":
+                elif user_command == "internet":
 
                     speedtest.get_all_speed()
 
-                elif user_input.split()[0].lower() == "aztr":
+                elif user_command == "aztr":
 
                     console.print(
                         f'{requests.get(f"https://azleks-api.herokuapp.com/{user_input.split()[1]}").json()[user_input.split()[1]]}',
                         style="green")
 
-                elif user_input.split()[0].lower() == "en":
+                elif user_command == "en":
 
                     translated.entr(user_input[2:])
 
-                elif user_input.split()[0].lower() == "tr":
+                elif user_command == "tr":
 
                     translated.trtr(user_input[2:])
 
-                elif user_input.split()[0].lower() == "de":
+                elif user_command == "de":
 
                     translated.detr(user_input[2:])
 
-                elif user_input.split()[0].lower() == "fr":
+                elif user_command == "fr":
 
                     translated.frtr(user_input[2:])
 
-                elif user_input.split()[0].lower() == "clear":
+                elif user_command == "clear":
 
                     os.system("clear")
 
-                elif user_input.split()[0].lower() == "suggest":
+                elif user_command == "suggest":
 
                     wiki.suggesting(user_input[8:])
 
-                elif user_input.split()[0].lower() == "summary":
+                elif user_command == "summary":
 
                     wiki.summarizing(user_input[8:])
+
+                elif user_command == "typo":
+
+                    typoz.check(user_input[4:])
+
 
             except:
 
