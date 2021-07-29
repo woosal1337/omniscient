@@ -75,5 +75,5 @@
 ```
 ##### Search Wikipedia Summary
 ```python
-1337$ wikipedia Turkey
+1337$ summary Turkey
 ```
