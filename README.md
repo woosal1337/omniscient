@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://woosal.com/1337/omeniscient1337.png" width=200px />
-</div>
+  <img src="https://woosal.com/1337/omeniscient-banner.png" />
 
 # omeniscient
+</div>
+  
 🕵🏼‍♂️ Omniscient is who knows everything. As yet this is going to be the most powerful and various API powered assistant, OMEN and Omniscient combination is what `omeniscient` about.
 
 ## Features:
