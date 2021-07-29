@@ -17,6 +17,11 @@
 1337$ lyrics corda harry
 ```
 
+### Azerbaijani Dictionary
+```python
+1337$ aztr salam
+```
+
 ### Translate
 
 ##### English
@@ -56,7 +61,19 @@
 ```python
 1337$ internet
 ```
-##### Azerbaijani Dictionary
+
+### Typo Check
+##### Check whether the sentence/word you are writing has any typo (English)
 ```python
-1337$ aztr salam
+1337$ typo helol world!
+```
+
+### Wikipedia
+##### Suggest Wikipedia Article Title/Page
+```python
+1337$ suggest Turke
+```
+##### Search Wikipedia Summary
+```python
+1337$ wikipedia Turkey
 ```
