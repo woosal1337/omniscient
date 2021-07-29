@@ -18,6 +18,10 @@
 1337$ lyrics corda harry
 ```
 
+<div align="center">
+  <img src="https://woosal.com/1337/omeniscient/lyricsnow.png" width=66% />
+</div>
+
 ### Azerbaijani Dictionary
 ```python
 1337$ aztr salam
@@ -48,6 +52,9 @@
 ```python
 1337$ Guten, morgen!
 ```
+<div align="center">
+  <img src="https://woosal.com/1337/omeniscient/en.png" width=66% />
+</div>
 
 ### Internet
 ##### Download Speed
@@ -63,11 +70,19 @@
 1337$ internet
 ```
 
+<div align="center">
+  <img src="https://woosal.com/1337/omeniscient/internet.png" width=66% />
+</div>
+
 ### Typo Check
 ##### Check whether the sentence/word you are writing has any typo (English)
 ```python
 1337$ typo helol world!
 ```
+
+<div align="center">
+  <img src="https://woosal.com/1337/omeniscient/typo.png" width=66% />
+</div>
 
 ### Wikipedia
 ##### Suggest Wikipedia Article Title/Page
@@ -78,3 +93,7 @@
 ```python
 1337$ summary Turkey
 ```
+
+<div align="center">
+  <img src="https://woosal.com/1337/omeniscient/summary.png" width=66% />
+</div>
