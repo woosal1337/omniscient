@@ -69,3 +69,4 @@ class translateit():
         translation = self.translator.translate(f'{args}', dest=f"fr")
         console.print(translation.text[2:-3], style="green")
         return translation.text[2:-3]
+
