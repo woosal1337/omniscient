@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://woosal.com/1337/omeniscient-banner.png" />
+  <img src="https://woosal.com/1337/omeniscient_banner.png" />
 
 # omeniscient
 </div>
