@@ -2,8 +2,13 @@
 Author: @woosal1337
 """
 
+import rich
+from rich import pretty
+from rich.console import Console
 from dotenv import load_dotenv
 import os
+
+console = Console()
 
 load_dotenv()
 
@@ -11,6 +16,7 @@ import json
 import spotipy
 import lyricsgenius as lg
 import time
+
 
 class spotus():
     def __init__(self):
@@ -41,7 +47,7 @@ class spotus():
 
         except:
 
-            print("An error occurred in the setup!")
+            console.print("An error occurred in the setup!", style="red")
             return "An error occurred in the setup!"
 
     def update_currently_playing(self) -> str:
@@ -62,7 +68,7 @@ class spotus():
             return self.currently_playing
 
         except:
-            print("An error occurred while fetching the song name & artist name.")
+            console.print("An error occurred while fetching the song name & artist name.", style="red")
             return "An error occurred while fetching the song name & artist name."
 
     def currently_playing_songname_artistname(self) -> str:
@@ -79,13 +85,14 @@ class spotus():
             if self.currently_playing["item"]["type"] == "track":
                 self.artist_name = self.currently_playing["item"]["album"]["artists"][0]["name"]
                 self.song_name = self.currently_playing["item"]["name"]
-                print(f"Song: {self.song_name}\nArtist: {self.artist_name}")
+                console.print(f"Song: {self.song_name}\nArtist: {self.artist_name}", style="green")
                 return (self.artist_name, self.song_name)
 
         except:
 
-            print(
-                "An error occurred while fetching the song name & artist name! Please listen to a `track` type of music to get the lyrics.")
+            console.print(
+                "An error occurred while fetching the song name & artist name! Please listen to a `track` type of music to get the lyrics.",
+                style="red")
             return "An error occurred while fetching the song name & artist name! Please listen to a `track` type of music to get the lyrics."
 
     def currently_playing_lyrics(self):
@@ -103,14 +110,14 @@ class spotus():
             song = self.genius_obj.search_song(title=self.song_name, artist=self.artist_name)
             self.lyrics = song.lyrics
 
-            print(self.lyrics)
+            console.print(self.lyrics, style="green")
             return self.lyrics
 
         except:
-            print("An error occurred while fetching the lyrics!")
+            console.print("An error occurred while fetching the lyrics!", style="red")
             return "An error occurred while fetching the lyrics!"
 
-    def lyrics(self, song_name:str, artist_name = None):
+    def lyrics(self, song_name: str, artist_name=None):
 
         """
         Take artist&song names and return lyrics of the track through Genius API
@@ -126,7 +133,7 @@ class spotus():
                 song = self.genius_obj.search_song(title=song_name, artist=artist_name)
                 self.lyrics = song.lyrics
 
-                print(self.lyrics)
+                console.print(self.lyrics, style="green")
                 return self.lyrics
 
             else:
@@ -134,9 +141,9 @@ class spotus():
                 song = self.genius_obj.search_song(title=song_name)
                 self.lyrics = song.lyrics
 
-                print(self.lyrics)
+                console.print(self.lyrics, style="green")
                 return self.lyrics
 
         except:
-            print("An error occurred while fetching the lyrics!")
+            console.print("An error occurred while fetching the lyrics!", style="red")
             return "An error occurred while fetching the lyrics!"

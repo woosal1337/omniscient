@@ -1,4 +1,9 @@
 import speedtest
+import rich
+from rich import pretty
+from rich.console import Console
+
+console = Console()
 
 class speedtesting():
 
@@ -16,7 +21,7 @@ class speedtesting():
         download = self.st.download()
         download = download / 1048076
 
-        print(f"Download Speed: {round(download, 3)} Mbps")
+        console.print(f"Download Speed: {round(download, 3)} Mbps", style="green")
         return f"Download Speed: {round(download, 3)} Mbps"
 
     def get_upload_speed(self):
@@ -29,7 +34,7 @@ class speedtesting():
         upload = self.st.upload()
         upload = upload / 1048076
 
-        print(f"Upload Speed: {round(upload, 3)} Mbps")
+        console.print(f"Upload Speed: {round(upload, 3)} Mbps", style="green")
         return f"Upload Speed: {round(upload, 3)} Mbps"
 
     def get_ping(self):
@@ -42,7 +47,7 @@ class speedtesting():
         self.st.get_servers([])
         ping = self.st.results.ping
 
-        print(f"Ping: {ping}")
+        console.print(f"Ping: {ping}", style="green")
         return f"Ping: {ping}"
 
     def get_all_speed(self):
@@ -60,5 +65,6 @@ class speedtesting():
         self.st.get_servers([])
         ping = self.st.results.ping
 
-        print(f"Download Speed: {round(download, 3)} Mbps\nUpload Speed: {round(upload, 3)} Mbps\nPing: {ping}")
+        console.print(f"Download Speed: {round(download, 3)} Mbps\nUpload Speed: {round(upload, 3)} Mbps\nPing: {ping}",
+                      style="green")
         return f"Download Speed: {round(download, 3)} Mbps\nUpload Speed: {round(upload, 3)} Mbps\nPing: {ping}"
