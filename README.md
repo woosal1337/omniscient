@@ -31,19 +31,19 @@
 ```
 
 ##### Turkish
-###### Translate any language to English:
+###### Translate any language to Turkish:
 ```python
 1337$ tr Hello, there!
 ```
 
 ##### German
-###### Translate any language to English:
+###### Translate any language to German:
 ```python
 1337$ de Merhaba, dostum!
 ```
 
 ##### French
-###### Translate any language to English:
+###### Translate any language to French:
 ```python
 1337$ Guten, morgen!
 ```
