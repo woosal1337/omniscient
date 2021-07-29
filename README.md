@@ -97,3 +97,9 @@
 <div align="center">
   <img src="https://woosal.com/1337/omeniscient/summary.png" width=66% />
 </div>
+
+### What to come:
+[X] Reddit API
+[X] Weather API
+[X] GitHub API
+[X] StackOverflow (Metastack) API
