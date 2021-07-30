@@ -12,9 +12,21 @@ class typos():
         self.setup()
 
     def setup(self):
+
+        """
+        Declares a parser variable, which is being used in the other class functions
+        :return:
+        """
+
         self.parser = GingerIt()
 
     def check(self, text):
+
+        """
+        Gets a text as an input argument and checks whether it has any typos or not
+        :param text:
+        :return:
+        """
 
         try:
             console.print(self.parser.parse(text)["result"][1:], style="green")

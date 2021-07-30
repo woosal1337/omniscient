@@ -7,6 +7,7 @@ from speedtest_demo import speedtesting
 from tr import translateit
 from wiki import wikipy
 from typo import typos
+from gh import gith
 
 import rich
 from rich import pretty
@@ -19,11 +20,12 @@ speedtest = speedtesting()
 translated = translateit()
 wiki = wikipy()
 typoz = typos()
-
+github = gith()
 
 class omeniscient():
 
     def __init__(self):
+        os.system("clear")
         self.start()
 
     def start(self):
@@ -94,6 +96,9 @@ class omeniscient():
 
                     typoz.check(user_input[4:])
 
+                elif user_command == "gh":
+
+                    github.get_info(user_input[3:])
 
             except:
 
