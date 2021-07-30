@@ -103,10 +103,15 @@
 1337$ gh woosal1337
 ```
 
+### Weather
+```python
+1337$ weather Baku
+```
+
 ### What to come:
 [X] GitHub API
+[X] Weather API
 [] Reddit API
-[] Weather API
 [] StackOverflow (Metastack) API
 [] GUI (CLI is preffered)
 [] Acronyms
