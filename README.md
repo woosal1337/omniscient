@@ -109,3 +109,4 @@
 [] Weather API
 [] StackOverflow (Metastack) API
 [] GUI (CLI is preffered)
+[] Acronyms
