@@ -8,6 +8,7 @@ from tr import translateit
 from wiki import wikipy
 from typo import typos
 from gh import gith
+from weather import water
 
 import rich
 from rich import pretty
@@ -21,6 +22,7 @@ translated = translateit()
 wiki = wikipy()
 typoz = typos()
 github = gith()
+wether = water()
 
 class omeniscient():
 
@@ -99,6 +101,10 @@ class omeniscient():
                 elif user_command == "gh":
 
                     github.get_info(user_input[3:])
+
+                elif user_command == "weather":
+
+                    wether.temp(user_input[8:])
 
             except:
 
