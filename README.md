@@ -98,9 +98,14 @@
   <img src="https://woosal.com/1337/omeniscient/summary.png" width=66% />
 </div>
 
+### GitHub Account Info:
+```python
+1337$ gh woosal1337
+```
+
 ### What to come:
-[X] Reddit API
-[X] Weather API
 [X] GitHub API
-[X] StackOverflow (Metastack) API
-[X] GUI (CLI is preffered)
+[] Reddit API
+[] Weather API
+[] StackOverflow (Metastack) API
+[] GUI (CLI is preffered)
