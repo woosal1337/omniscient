@@ -50,7 +50,7 @@
 ##### French
 ###### Translate any language to French:
 ```python
-1337$ Guten, morgen!
+1337$ fr Guten, morgen!
 ```
 <div align="center">
   <img src="https://woosal.com/1337/omeniscient/en.png" width=66% />
