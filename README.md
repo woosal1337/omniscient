@@ -103,3 +103,4 @@
 [X] Weather API
 [X] GitHub API
 [X] StackOverflow (Metastack) API
+[X] GUI (CLI is preffered)
