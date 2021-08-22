@@ -2,6 +2,7 @@
 Author: @woosal1337
 """
 
+import time
 import rich
 from rich import pretty
 from rich.console import Console
@@ -16,6 +17,10 @@ import json
 import spotipy
 import lyricsgenius as lg
 import time
+
+from tr import translateit
+
+translator = translateit()
 
 
 class spotus():
@@ -109,6 +114,29 @@ class spotus():
 
             song = self.genius_obj.search_song(title=self.song_name, artist=self.artist_name)
             self.lyrics = song.lyrics
+
+            console.print(self.lyrics, style="green")
+            return self.lyrics
+
+        except:
+            console.print("An error occurred while fetching the lyrics!", style="red")
+            return "An error occurred while fetching the lyrics!"
+
+    def currently_playing_lyrics_translated(self):
+
+        """
+        Take artist&song names and return lyrics of the track through Genius API
+        :param artist_name:
+        :param song_name:
+        :return:
+        """
+
+        try:
+            self.update_currently_playing()
+
+            song = self.genius_obj.search_song(title=self.song_name, artist=self.artist_name)
+
+            self.lyrics = translator.tren(song.lyrics)
 
             console.print(self.lyrics, style="green")
             return self.lyrics

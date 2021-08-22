@@ -8,3 +8,10 @@ omeniscient/.env
 omeniscient/.env
 weather/.env
 weather/.env
+wiki/__pycache__/__init__.cpython-38.pyc
+typo/__pycache__/__init__.cpython-38.pyc
+*.pyc
+*.pyc
+spotius/spotus/__pycache__/__init__.cpython-38.pyc
+speedtest_demo/__pycache__/__init__.cpython-38.pyc
+omeniscient/__pycache__/__init__.cpython-38.pyc

@@ -48,6 +48,10 @@ class omeniscient():
 
                     spotius.currently_playing_lyrics()
 
+                elif user_command == "lyricsnowtr":
+
+                    spotius.currently_playing_lyrics_translated()
+
                 elif user_command == "downloadspeed":
 
                     speedtest.get_download_speed()
