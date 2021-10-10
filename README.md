@@ -1,14 +1,12 @@
 <div align="center">
-  <img src="https://woosal.com/1337/omeniscient_banner.png" />
-
-# omeniscient
+  <h1>omniscient</h1>
 </div>
   
-🕵🏼‍♂️ Omniscient is who knows everything. As yet this is going to be the most powerful and various API powered assistant, OMEN and Omniscient combination is what `omeniscient` about.
+🕵🏼‍♂️ omniscient is who knows everything. as yet this is going to be the most powerful and various api powered assistant of mine yet, it is being called after it.
 
-## Features:
+## features:
 
-### Currently Playing Spotify Lyrics:
+### currently playing spotify lyrics:
 ```python
 1337$ lyricsnow
 ```
@@ -18,100 +16,73 @@
 1337$ lyrics corda harry
 ```
 
-<div align="center">
-  <img src="https://woosal.com/1337/omeniscient/lyricsnow.png" width=66% />
-</div>
-
-### Azerbaijani Dictionary
+### azerbaijani dictionary
 ```python
 1337$ aztr salam
 ```
 
-### Translate
+### translate
 
-##### English
-###### Translate any language to English:
+##### english
+###### translate any language to english:
 ```python
 1337$ en Hallo
 ```
 
-##### Turkish
-###### Translate any language to Turkish:
+##### turkish
+###### translate any language to turkish:
 ```python
 1337$ tr Hello, there!
 ```
 
-##### German
-###### Translate any language to German:
+##### german
+###### translate any language to german:
 ```python
 1337$ de Merhaba, dostum!
 ```
 
-##### French
-###### Translate any language to French:
+##### french
+###### translate any language to french:
 ```python
 1337$ fr Guten, morgen!
 ```
-<div align="center">
-  <img src="https://woosal.com/1337/omeniscient/en.png" width=66% />
-</div>
 
-### Internet
-##### Download Speed
+### internet
+##### download speed
 ```python
 1337$ downloadspeed
 ```
-##### Upload Speed
+##### upload speed
 ```python
 1337$ uploadspeed
 ```
-##### Download/Upload/Ping Speeds
+##### download/upload/ping speeds
 ```python
 1337$ internet
 ```
 
-<div align="center">
-  <img src="https://woosal.com/1337/omeniscient/internet.png" width=66% />
-</div>
-
-### Typo Check
-##### Check whether the sentence/word you are writing has any typo (English)
+### typo check
+##### check whether the sentence/word you are writing has any typo (english)
 ```python
 1337$ typo helol world!
 ```
 
-<div align="center">
-  <img src="https://woosal.com/1337/omeniscient/typo.png" width=66% />
-</div>
-
-### Wikipedia
-##### Suggest Wikipedia Article Title/Page
+### wikipedia
+##### suggest wikipedia article title/page
 ```python
 1337$ suggest Turke
 ```
-##### Search Wikipedia Summary
+##### search wikipedia summary
 ```python
 1337$ summary Turkey
 ```
 
-<div align="center">
-  <img src="https://woosal.com/1337/omeniscient/summary.png" width=66% />
-</div>
-
-### GitHub Account Info:
+### github account info:
 ```python
 1337$ gh woosal1337
 ```
 
-### Weather
+### weather
 ```python
 1337$ weather Baku
 ```
-
-### What to come:
-[X] GitHub API
-[X] Weather API
-[] Reddit API
-[] StackOverflow (Metastack) API
-[] GUI (CLI is preffered)
-[] Acronyms
