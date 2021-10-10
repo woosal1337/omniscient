@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="others/logo.png" />
   <h1>omniscient</h1>
 </div>
   
