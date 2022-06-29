@@ -1,9 +1,9 @@
 <div align="center">
   <img src="others/logo.png" />
-  <h1>omniscient</h1>
+  <h1>Omniscient</h1>
 </div>
   
-🕵🏼‍♂️ omniscient is who knows everything. as yet this is going to be the most powerful and various api powered assistant of mine yet, it is being called after it.
+🕵🏼‍♂️ Omniscient is who knows everything. as yet this is going to be the most powerful and various api powered assistant of mine yet, it is being called after it.
 
 ## features:
 
