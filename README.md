@@ -1,13 +1,28 @@
 <div align="center">
-  <img src="others/logo.png" />
   <h1>Omniscient</h1>
+  <h3>🕵🏼‍♂️ Omniscient is who knows everything. as yet this is going to be the most powerful and various api powered assistant of mine yet, it is being called after it.</h3>
 </div>
-  
-🕵🏼‍♂️ Omniscient is who knows everything. as yet this is going to be the most powerful and various api powered assistant of mine yet, it is being called after it.
 
-## features:
+<br>
 
-### currently playing spotify lyrics:
+<div align="center">
+	| 
+    <a href="https://woosal.net">blog</a> | 
+    <a href="https://gist.github.com/woosal1337">gist</a> | 
+    <a href="https://github.com/woosal1337/dotfiles">dotfiles</a> |  
+    <a href="https://www.reddit.com/user/woosal1337">reddit</a> | 
+    <a href="https://keybase.io/woosal">keybase</a> | 
+    <a href="https://t.me/woosal1337">telegram</a> |
+    <a href="https://twitter.com/woosal1337">twitter</a> | 
+    <a href="https://www.instagram.com/woosal1337/">instagram</a> |
+    <a href="https://open.spotify.com/user/3pd70lv4jpyjbjxjfgysx3pzl">spotify</a> |
+    <a href="https://discordapp.com/users/901937888688758785">discord</a> |
+    <a href="mailto:me@woosal.net">mail</a> |
+</div>
+
+## Features:
+
+### Currently playing Spotify lyrics:
 ```python
 1337$ lyricsnow
 ```
@@ -17,73 +32,73 @@
 1337$ lyrics corda harry
 ```
 
-### azerbaijani dictionary
+### Azerbaijani Dictionary
 ```python
 1337$ aztr salam
 ```
 
-### translate
+### Translate
 
-##### english
-###### translate any language to english:
+##### English
+###### Translate any language to English:
 ```python
 1337$ en Hallo
 ```
 
-##### turkish
-###### translate any language to turkish:
+##### Turkish
+###### Translate any language to Turkish:
 ```python
 1337$ tr Hello, there!
 ```
 
-##### german
-###### translate any language to german:
+##### German
+###### Translate any language to German:
 ```python
 1337$ de Merhaba, dostum!
 ```
 
-##### french
-###### translate any language to french:
+##### French
+###### Translate any language to French:
 ```python
 1337$ fr Guten, morgen!
 ```
 
-### internet
-##### download speed
+### Internet
+##### Download Speed
 ```python
 1337$ downloadspeed
 ```
-##### upload speed
+##### Upload Speed
 ```python
 1337$ uploadspeed
 ```
-##### download/upload/ping speeds
+##### Download/Upload/Ping speeds
 ```python
 1337$ internet
 ```
 
-### typo check
-##### check whether the sentence/word you are writing has any typo (english)
+### Typo check
+##### Check whether the sentence/word you are writing has any typo (English)
 ```python
 1337$ typo helol world!
 ```
 
-### wikipedia
-##### suggest wikipedia article title/page
+### Wikipedia
+##### Suggest Wikipedia article title/page
 ```python
 1337$ suggest Turke
 ```
-##### search wikipedia summary
+##### Search Wikipedia summary
 ```python
 1337$ summary Turkey
 ```
 
-### github account info:
+### Github account info:
 ```python
 1337$ gh woosal1337
 ```
 
-### weather
+### Weather
 ```python
 1337$ weather Baku
 ```
